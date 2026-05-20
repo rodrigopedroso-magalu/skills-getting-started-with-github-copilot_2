@@ -21,23 +21,45 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 
 # In-memory activity database
 activities = {
-    "Chess Club": {
-        "description": "Learn strategies and compete in chess tournaments",
-        "schedule": "Fridays, 3:30 PM - 5:00 PM",
-        "max_participants": 12,
-        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
+    "Chess Club": { ... },
+    "Programming Class": { ... },
+    "Gym Class": { ... },
+
+    "Soccer Team": {
+        "description": "Practice team drills and compete in matches",
+        "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:30 PM",
+        "max_participants": 18,
+        "participants": []
     },
-    "Programming Class": {
-        "description": "Learn programming fundamentals and build software projects",
-        "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
+    "Swimming Team": {
+        "description": "Swim training, technique work, and swim meets",
+        "schedule": "Mondays, Wednesdays, Fridays, 4:00 PM - 5:30 PM",
         "max_participants": 20,
-        "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
+        "participants": []
     },
-    "Gym Class": {
-        "description": "Physical education and sports activities",
-        "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
-        "max_participants": 30,
-        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+    "Drama Club": {
+        "description": "Rehearse scenes, learn acting skills, and perform plays",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 15,
+        "participants": []
+    },
+    "Art Studio": {
+        "description": "Explore painting, drawing, and mixed media projects",
+        "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 16,
+        "participants": []
+    },
+    "Debate Team": {
+        "description": "Research topics, practice arguments, and compete in debates",
+        "schedule": "Mondays, 3:30 PM - 5:00 PM",
+        "max_participants": 12,
+        "participants": []
+    },
+    "Science Club": {
+        "description": "Run experiments, explore STEM topics, and present projects",
+        "schedule": "Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 14,
+        "participants": []
     }
 }
 
